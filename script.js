@@ -27,7 +27,6 @@ function Timer()
         document.querySelector("#clock").innerHTML = "Expired";
         document.getElementById('clock').style.fontSize = "50px";
         document.getElementById('buttons').style.display = 'none';
-        document.getElementById('social').style.marginLeft= '15px';
         clearInterval(interval);
         
     }
