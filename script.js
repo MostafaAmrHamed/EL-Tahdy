@@ -12,7 +12,7 @@ let interval;
 
 document.addEventListener('DOMContentLoaded', () =>
 {
-    CountDownDate = new Date("Feb 20, 2020 23:30:0").getTime();
+    CountDownDate = new Date("Feb 15, 2020 23:30:0").getTime();
     Timer();
     interval = setInterval(Timer, 1000);
 });
@@ -24,7 +24,7 @@ function Timer()
     const Time = CountDownDate - now; 
     if(Time < 0)
     {
-        document.querySelector("#clock").innerHTML = "Expired";
+        document.querySelector("#clock").innerHTML = "قريبــــا";
         document.getElementById('clock').style.fontSize = "50px";
         document.getElementById('buttons').style.display = 'none';
         clearInterval(interval);
