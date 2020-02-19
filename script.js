@@ -59,13 +59,13 @@ function showIframe(clicked){
     //Constrcut iframe
     let src;
     if (clicked === "one") {
-      src="https://docs.google.com/forms/d/e/1FAIpQLSdZriH3JGDht2SzSwwbk7QMBoZ9HV1l26nL7Hm66gowrJH1Xw/viewscore?viewscore=AE0zAgAHVGH9hN0AKg8ebG8zXL5rZf0exY9pn2xYJfsN5pnUtROC_IeoergDHBxGuo7tTGk";
+      src="#";
     }
     else if(clicked === "two"){
-      src="https://ramishenouda.github.io/ComingSoon/";
+      src="#";
     }
     else{
-      src="https://docs.google.com/forms/d/e/1FAIpQLSflNM6ERebpBAtb6TRuGQjwjVBdqKhK7IXu6kxt_dKvE4r1Yg/viewform";
+      src="#";
     }
     var Html = `<iframe src=${src} frameborder="0" allowfullscreen"></iframe>`;
     document.getElementById('frame').innerHTML = Html;
