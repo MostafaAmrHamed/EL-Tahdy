@@ -12,7 +12,7 @@ let interval;
 
 document.addEventListener('DOMContentLoaded', () =>
 {
-    CountDownDate = new Date("Feb 15, 2020 23:30:0").getTime();
+    CountDownDate = new Date("Feb 27, 2020 3:30:0").getTime();
     Timer();
     interval = setInterval(Timer, 1000);
 });
@@ -59,13 +59,13 @@ function showIframe(clicked){
     //Constrcut iframe
     let src;
     if (clicked === "one") {
-      src="#";
+      src="https://forms.gle/eH3e5866BSvpZpT77";
     }
     else if(clicked === "two"){
-      src="#";
+      src="https://forms.gle/NoBUwKSr6tvJNv4m6";
     }
     else{
-      src="#";
+      src="https://forms.gle/9F9SQ91RWSEzPFSv7";
     }
     var Html = `<iframe src=${src} frameborder="0" allowfullscreen"></iframe>`;
     document.getElementById('frame').innerHTML = Html;
