@@ -59,13 +59,13 @@ function showIframe(clicked){
     //Constrcut iframe
     let src;
     if (clicked === "one") {
-      src="https://forms.gle/eH3e5866BSvpZpT77";
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeYi4lP_QRfd6ilssxrq7MUZW6xzPDr1s4lGokcGnYvZsS0RQ/viewform";
     }
     else if(clicked === "two"){
-      src="https://forms.gle/NoBUwKSr6tvJNv4m6";
+      src="https://docs.google.com/forms/d/e/1FAIpQLSd43_G0oaXt1lStOhJgZ7txWVDymO27ySIQ2KjsuWpxRN0YnA/viewform";
     }
     else{
-      src="https://forms.gle/9F9SQ91RWSEzPFSv7";
+      src="https://docs.google.com/forms/d/e/1FAIpQLSf6MIsRhCJDAAYWR-8ux8sDyNLwqZvogirrFEwIHoR11vfh6g/viewform";
     }
     var Html = `<iframe src=${src} frameborder="0" allowfullscreen"></iframe>`;
     document.getElementById('frame').innerHTML = Html;
