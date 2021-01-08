@@ -12,7 +12,7 @@ let interval;
 
 document.addEventListener('DOMContentLoaded', () =>
 {
-    CountDownDate = new Date("Mar 14, 2020 7:00:0").getTime();
+    CountDownDate = new Date("Jan 15, 2021 7:00:0").getTime();
     Timer();
     interval = setInterval(Timer, 1000);
 });
@@ -59,13 +59,13 @@ function showIframe(clicked){
     //Constrcut iframe
     let src;
     if (clicked === "one") {
-      src="https://docs.google.com/forms/d/e/1FAIpQLSeYi4lP_QRfd6ilssxrq7MUZW6xzPDr1s4lGokcGnYvZsS0RQ/viewform";
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfizMHEkm98I7hTwfd3haaYQgG0hzOiqm8Rv0994bZC6uDm1Q/viewform";
     }
     else if(clicked === "two"){
-      src="https://docs.google.com/forms/d/e/1FAIpQLSd43_G0oaXt1lStOhJgZ7txWVDymO27ySIQ2KjsuWpxRN0YnA/viewform";
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdPrffzxsHfifqX1Z4aeifxO7RmBiXx3mgAzy3srZRi9gOAfA/viewform?usp=sf_link";
     }
     else{
-      src="https://docs.google.com/forms/d/e/1FAIpQLSf6MIsRhCJDAAYWR-8ux8sDyNLwqZvogirrFEwIHoR11vfh6g/viewform";
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdPrffzxsHfifqX1Z4aeifxO7RmBiXx3mgAzy3srZRi9gOAfA/viewform?usp=sf_link";
     }
     var Html = `<iframe src=${src} frameborder="0" allowfullscreen"></iframe>`;
     document.getElementById('frame').innerHTML = Html;
