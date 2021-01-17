@@ -20,7 +20,7 @@ const exams = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Jan 17, 2021 8:20:00").getTime();
+  CountDownDate = new Date("Jan 17, 2021 9:04:00").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
