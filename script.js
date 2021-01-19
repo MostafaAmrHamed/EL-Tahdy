@@ -12,15 +12,15 @@ let interval;
 const message = "لا يوجد امتحان";
 const exams = {
   one:
-    "https://docs.google.com/forms/d/e/1FAIpQLSfizMHEkm98I7hTwfd3haaYQgG0hzOiqm8Rv0994bZC6uDm1Q/viewform",
+    "https://docs.google.com/forms/d/1YZGAjKLSZNuPDO2EplYYft8n_ZVCjaXazXUpt6x9kgU/viewform?edit_requested=true",
   adby:
-    "https://docs.google.com/forms/d/e/1FAIpQLSdPrffzxsHfifqX1Z4aeifxO7RmBiXx3mgAzy3srZRi9gOAfA/viewform?usp=sf_link",
+    "https://docs.google.com/forms/d/1RO0dJibv1EzrpBaZexp8IAehj7sKrXNZYydAwVXKYHY/viewform?edit_requested=true",
   almy:
-    "https://docs.google.com/forms/d/e/1FAIpQLSdPrffzxsHfifqX1Z4aeifxO7RmBiXx3mgAzy3srZRi9gOAfA/viewform?usp=sf_link",
+    "https://docs.google.com/forms/d/1DZis5tSg-H1I7PDyqxQadfbmoxjozj2NHPWWZwveCZg/viewform?edit_requested=true",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Jan 17, 2021 9:04:00").getTime();
+  CountDownDate = new Date("Jan 23, 2021 23:59:59").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
