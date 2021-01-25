@@ -14,13 +14,13 @@ const exams = {
   one:
     "https://docs.google.com/forms/d/1YZGAjKLSZNuPDO2EplYYft8n_ZVCjaXazXUpt6x9kgU/viewform?edit_requested=true",
   adby:
-    "https://docs.google.com/forms/d/1RO0dJibv1EzrpBaZexp8IAehj7sKrXNZYydAwVXKYHY/viewform?edit_requested=true",
+    "https://docs.google.com/forms/d/1INYJ1yosveVoc3G0jl0XGRwc5Km0uCkGbY3FUgaukLE/viewform?edit_requested=true",
   almy:
-    "https://docs.google.com/forms/d/1DZis5tSg-H1I7PDyqxQadfbmoxjozj2NHPWWZwveCZg/viewform?edit_requested=true",
+    "https://docs.google.com/forms/d/1INYJ1yosveVoc3G0jl0XGRwc5Km0uCkGbY3FUgaukLE/viewform?edit_requested=true",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Jan 23, 2021 23:59:59").getTime();
+  CountDownDate = new Date("Jan 30, 2021 23:59:59").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
