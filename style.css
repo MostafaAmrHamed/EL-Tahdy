@@ -2,8 +2,8 @@ body {
   background-color: #1a1a1d;
 }
 html {
-  height: 100%;
   width: 100%;
+  height: 100%;
   margin: 0;
 }
 
@@ -12,7 +12,7 @@ html {
   text-align: center;
 }
 .logo img {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 @media (max-width: 768px) {
   .logo img {
@@ -62,28 +62,25 @@ html {
   background-color: #1a1a1d;
   border: 3px solid #bd073f;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
+  padding: 10px 20px;
   text-decoration: none;
-  display: inline-block;
   font-size: 25px;
-  margin: 4px 50px;
   cursor: pointer;
-  border-radius: 32px;
+  border-radius: 25px;
+  transition: all .3s ease;
 }
 .buttons .btn:hover {
   background-color: #bd073f;
+  transform: scale(1.1);
+}
+.two{
+  display: block;
+  margin: 1rem auto;
 }
 @media (max-width: 768px) {
-  .buttons .btn {
-    font-size: 20px;
-    margin: 4px 25px;
-  }
-}
-@media (max-width: 576px) {
-  .buttons .btn {
-    font-size: 17px;
-    margin: 0;
+  .two{
+    display: block;
+    margin: 1rem auto;
   }
 }
 /*End of Buttons*/
@@ -100,7 +97,7 @@ html {
 /*Start of Footer*/
 .social {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .social a {
   color: #bd073f;

@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Logo.png">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/472084089f.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/472084089f.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
     <title>EL-Tahdy</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="Home">
-            
-        <!--Start Of Logo-->
-        <div class="logo">
-            <img src="Logo.png" alt="">
-        </div>
-        <!--End Of Logo-->
-        
-        <!--Start Of Timer-->
-        <div class="timer">
-            <div id="clock">
-                <span id="days" class="clockElement"></span>
-                <sup>Days</sup>
-                <span class="clockElement"> : </span>
-                <span id="hours" class="clockElement"></span>
-                <sup>Hours</sup>
-                <span class="clockElement"> : </span>
-                <span id="minutes" class="clockElement"></span>
-                <sup>Minutes</sup>
-                <span class="clockElement"> : </span>
-                <span id="seconds" class="clockElement"></span>
-                <sup>Seconds</sup>
-            </div>
-        </div>
-        <!--End Of Timer-->
-        <!-- <h1 class="note"> ملحوظة: العلمي الشبح يحل امتحانين ادبي وعلمي </h1> -->
-        <!--Start Of Buttons-->
-        <div class="buttons" id="buttons">
-            <button class="btn" id="B2" onclick="showIframe('two')">تانية ادبى</button>
-            <button class="btn" id="B3" onclick="showIframe()">تانية علمى</button>  
-            <button class="btn" id="B1" onclick="showIframe('one')">اولى</button>
-        </div>
-        <!--End Of Buttons-->
+      <!--Start Of Logo-->
+      <div class="logo">
+        <img src="Logo.png" alt="" />
+      </div>
+      <!--End Of Logo-->
 
-        <!--Start of Footer-->
-        <footer>
-            <div class="social" id="social">
-                <a class="icon fab fa-facebook fa-2x" href="https://www.facebook.com/Hn7bElRyada" target="_blank"></a>
-                <a class="icon fab fa-youtube fa-2x" href="https://www.youtube.com/channel/UCPpm98ny_b5NODUeqt-yw4A?view_as=subscriber" target="_blank"></a>
-            </div>
-        </footer>
-        <!--End of Footer-->
+      <!--Start Of Timer-->
+      <div class="timer">
+        <div id="clock">
+          <span id="days" class="clockElement"></span>
+          <sup>Days</sup>
+          <span class="clockElement"> : </span>
+          <span id="hours" class="clockElement"></span>
+          <sup>Hours</sup>
+          <span class="clockElement"> : </span>
+          <span id="minutes" class="clockElement"></span>
+          <sup>Minutes</sup>
+          <span class="clockElement"> : </span>
+          <span id="seconds" class="clockElement"></span>
+          <sup>Seconds</sup>
+        </div>
+      </div>
+      <!--End Of Timer-->
+      <!-- <h1 class="note"> ملحوظة: العلمي الشبح يحل امتحانين ادبي وعلمي </h1> -->
+      <!--Start Of Buttons-->
+      <div class="buttons" id="buttons">
+        <div class="first">
+          <button class="btn" id="B1" onclick="showIframe('one')">
+            الصف الاول الثانوي
+          </button>
+        </div>
+        <div class="secondry">
+          <button class="btn two" id="B2" onclick="showIframe('two')">
+            الصف الثاني الثانوي (ادبى)
+          </button>
+          <button class="btn two" id="B3" onclick="showIframe('two-almy')">
+            (الصف الثاني الثانوي (علمى
+          </button>
+        </div>
+        <div class="third">
+          <button class="btn" id="B1" onclick="showIframe('three')">
+            الصف الثالث الثانوي
+          </button>
+        </div>
+      </div>
+      <!--End Of Buttons-->
 
+      <!--Start of Footer-->
+      <footer>
+        <div class="social" id="social">
+          <a
+            class="icon fab fa-facebook fa-2x"
+            href="https://www.facebook.com/Hn7bElRyada"
+            target="_blank"
+          ></a>
+          <a
+            class="icon fab fa-youtube fa-2x"
+            href="https://www.youtube.com/channel/UCPpm98ny_b5NODUeqt-yw4A?view_as=subscriber"
+            target="_blank"
+          ></a>
+        </div>
+      </footer>
+      <!--End of Footer-->
     </div>
     <div class="frame" id="frame"></div>
-</body>
+  </body>
 </html>
