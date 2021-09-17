@@ -11,15 +11,15 @@ let CountDownDate;
 let interval;
 const message = "لا يوجد امتحان";
 const exams = {
-  one: "https://docs.google.com/forms/d/1YZGAjKLSZNuPDO2EplYYft8n_ZVCjaXazXUpt6x9kgU/viewform?edit_requested=true",
-  adby: "https://docs.google.com/forms/d/1INYJ1yosveVoc3G0jl0XGRwc5Km0uCkGbY3FUgaukLE/viewform?edit_requested=true",
-  almy: "https://docs.google.com/forms/d/1INYJ1yosveVoc3G0jl0XGRwc5Km0uCkGbY3FUgaukLE/viewform?edit_requested=true",
+  one: "https://docs.google.com/forms/d/e/1FAIpQLSdHZdGc755g1ztyeDcTIgk3axfM6CCvwhATU95puFDvRLUkVA/viewform",
+  adby: "https://docs.google.com/forms/d/e/1FAIpQLSfYTTJDgH8Zm_QJ8Fny6ESF5Gz1uUjpkj0_FopMvhhcRM_t1A/viewform",
+  almy: "https://docs.google.com/forms/d/e/1FAIpQLSd6eeJAXd1qvtVvBAL-PBeO6CRerL0VwHdYqt2CKGKkxGwazw/viewform",
   three:
-    "https://docs.google.com/forms/d/1INYJ1yosveVoc3G0jl0XGRwc5Km0uCkGbY3FUgaukLE/viewform?edit_requested=true",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeKejWwkAs83K6Y3Q-WYfHbDLbTr4xq8U9sMX2ceUiOpkSNwA/viewform",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Aug 30, 2021 23:59:59").getTime();
+  CountDownDate = new Date("Sep 23, 2021 23:59:59").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
