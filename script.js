@@ -11,15 +11,15 @@ let CountDownDate;
 let interval;
 const message = "لا يوجد امتحان";
 const exams = {
-  one: "https://docs.google.com/forms/d/e/1FAIpQLSdHZdGc755g1ztyeDcTIgk3axfM6CCvwhATU95puFDvRLUkVA/viewform",
-  adby: "https://docs.google.com/forms/d/e/1FAIpQLSfYTTJDgH8Zm_QJ8Fny6ESF5Gz1uUjpkj0_FopMvhhcRM_t1A/viewform",
-  almy: "https://docs.google.com/forms/d/e/1FAIpQLSd6eeJAXd1qvtVvBAL-PBeO6CRerL0VwHdYqt2CKGKkxGwazw/viewform",
+  one: "https://docs.google.com/forms/d/e/1FAIpQLSd18J4fciSz4LQZdug3uTZ5SM4HXec3RrsoN3KsqqiCJQX1iA/viewform",
+  adby: "https://docs.google.com/forms/d/e/1FAIpQLScMR0xL8H2yjnO3UqywgLfAAwX5CWW8vLknZBVrTUPHeLNXIQ/viewform",
+  almy: "https://docs.google.com/forms/d/e/1FAIpQLSeA2mWIfyO1QOrJrJ61WpMlb9jbzl0yleNOQNlk5nxD5gFvgw/viewform",
   three:
     "https://docs.google.com/forms/d/e/1FAIpQLSeKejWwkAs83K6Y3Q-WYfHbDLbTr4xq8U9sMX2ceUiOpkSNwA/viewform",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Oct 16, 2021 23:59:59").getTime();
+  CountDownDate = new Date("Nov 22, 2021 23:59:59").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
