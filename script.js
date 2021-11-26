@@ -9,7 +9,7 @@ window.onload = function () {
 /**************[Start Of Timer]**************/
 let CountDownDate;
 let interval;
-const message = "لا يوجد امتحان";
+const message = "لا يوجد امتحااان";
 const exams = {
   one: "https://docs.google.com/forms/d/e/1FAIpQLSd18J4fciSz4LQZdug3uTZ5SM4HXec3RrsoN3KsqqiCJQX1iA/viewform",
   adby: "https://docs.google.com/forms/d/e/1FAIpQLScMR0xL8H2yjnO3UqywgLfAAwX5CWW8vLknZBVrTUPHeLNXIQ/viewform",
@@ -19,7 +19,7 @@ const exams = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Nov 22, 2021 23:59:59").getTime();
+  CountDownDate = new Date("Nov 29, 2021 23:59:59").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
