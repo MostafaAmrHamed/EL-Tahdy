@@ -11,15 +11,14 @@ let CountDownDate;
 let interval;
 const message = "لا يوجد امتحااان";
 const exams = {
-  one: "https://docs.google.com/forms/d/e/1FAIpQLSd18J4fciSz4LQZdug3uTZ5SM4HXec3RrsoN3KsqqiCJQX1iA/viewform",
-  adby: "https://docs.google.com/forms/d/e/1FAIpQLScMR0xL8H2yjnO3UqywgLfAAwX5CWW8vLknZBVrTUPHeLNXIQ/viewform",
-  almy: "https://docs.google.com/forms/d/e/1FAIpQLSeA2mWIfyO1QOrJrJ61WpMlb9jbzl0yleNOQNlk5nxD5gFvgw/viewform",
-  three:
-    "https://docs.google.com/forms/d/e/1FAIpQLSeKejWwkAs83K6Y3Q-WYfHbDLbTr4xq8U9sMX2ceUiOpkSNwA/viewform",
+  one: "https://docs.google.com/forms/d/e/1FAIpQLSfBNzCDuwOswrU_qprpj92BV5TXPCuVjdEf1Vrm8h6ZZDk44w/viewform",
+  adby: "",
+  almy: "",
+  three:"",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Dec 3, 2021 23:59:59").getTime();
+  CountDownDate = new Date("Aug 31, 2024 23:59:59").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
