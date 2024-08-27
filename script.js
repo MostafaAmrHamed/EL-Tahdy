@@ -18,7 +18,7 @@ const exams = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  CountDownDate = new Date("Aug 27, 2024 22:00:00").getTime();
+  CountDownDate = new Date("Aug 28, 2024 22:00:00").getTime();
   Timer();
   interval = setInterval(Timer, 1000);
 });
