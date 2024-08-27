@@ -11,7 +11,7 @@ let CountDownDate;
 let interval;
 const message = "لا يوجد امتحااان";
 const exams = {
-  one: "https://docs.google.com/forms/d/e/1FAIpQLSfBNzCDuwOswrU_qprpj92BV5TXPCuVjdEf1Vrm8h6ZZDk44w/viewform",
+  one: "https://docs.google.com/forms/d/e/1FAIpQLScHsuaOuoZvNyvyA_huEJoGQEJNN_efc7jzNEtTAp5RvZ6vyA/viewform",
   adby: "",
   almy: "",
   three:"",
